@@ -1,0 +1,10 @@
+void board_init(void);
+void delay(int cnt);
+int usart_rec(void);
+void usart_snd(int data);
+void usart_snd_str(char *str);
+void set_led(int led, int mode);
+void flash_led(int led);
+void nmi_handler(void);
+void hardfault_handler(void);
+void serialInit(void);

@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections --signed_chars -I lib
+-IC:\Keil_v5\ARM\RV31\INC
+-IC:\Keil_v5\ARM\CMSIS\Include
+-IC:\Keil_v5\ARM\Inc\ST\STM32F10x
+-D__UVISION_VERSION="521" -DSTM32F10X_MD_VL -DUSE_STDPERIPH_DRIVER
+-o .\debug\stm32f10x_conf.o --omf_browse .\debug\stm32f10x_conf.crf --depend .\debug\stm32f10x_conf.d "lib/STM32_Conf/stm32f10x_conf.h"
